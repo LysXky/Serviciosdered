@@ -1,0 +1,3 @@
+/home/Carpeta1 *(ro,sync)
+/home/Carpeta2 192.168.100.0/24(rw,sync)
+/home/Carpeta3 192.168.100.64/32(rw,sync)

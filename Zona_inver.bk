@@ -1,0 +1,13 @@
+$TTL 1D
+@	IN SOA	ns1.noshutdown.com. root.noshutdown.com. (
+					1	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+	IN	NS	ns1.noshutdown.com.
+ns1	IN	A	192.168.100.6
+6	IN	PTR	mail.noshutdown.com.
+6	IN	PTR	ftp.noshutdown.com.
+6	IN	PTR	smtp.noshutdown.com.
+6	IN	PTR	www.noshutdown.com.

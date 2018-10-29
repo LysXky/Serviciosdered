@@ -1,0 +1,18 @@
+$TTL 1D
+@	IN SOA	ns1.noshutdown.com. root.ns1.noshutdown.com. (
+					1	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+	IN	NS	ns1.noshutdown.com.
+	IN	MX 10	mail.noshutdown.com.
+	IN	MX 20	smtp.noshutdown.com.
+
+
+ns1	IN	A	192.168.100.6
+www	IN	A	192.168.100.6
+mail	IN	A	192.168.100.6
+smtp	IN	A	192.168.100.6
+ftp	IN	A	192.168.100.6
+portal	IN	CNAME	www	
